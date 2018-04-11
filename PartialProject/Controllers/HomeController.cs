@@ -39,6 +39,7 @@ namespace PartialProject.Controllers
             cmd.ExecuteNonQuery();
 
             return View();
+
         }
     }
 }
