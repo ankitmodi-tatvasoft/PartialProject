@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("AddData", "Home"))
+{
+    @Html.TextBox("Id")
+    <br/>
+    @Html.TextBox("Name")
+
+    <input type='submit' value='Submit' />
+}
